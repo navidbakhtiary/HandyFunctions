@@ -1,3 +1,5 @@
+<?php
+
 function createUnixTimestamp(int $year, int $month, int $day, int $hour, int $minute, int $second)
 {
     $month_days_count = [
